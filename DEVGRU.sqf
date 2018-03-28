@@ -15,6 +15,7 @@ removeBackpack this;
 removeHeadgear this;
 removeGoggles this;
 
+comment "Add containers";
 this forceAddUniform "rhs_uniform_FROG01_wd";
 for "_i" from 1 to 10 do {this addItemToUniform "ACE_fieldDressing";};
 this addItemToUniform "ACE_IR_Strobe_Item";
